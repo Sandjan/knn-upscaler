@@ -4,13 +4,12 @@ A upscaler using the k-nearest-neighbor approach based on the assumption of simi
 It will also remove some noise and compression artifacts.  
 Just for fun, makes little sense in times of Deep Learning super resolution.
 
-Here are some example images:
+Here are some example comparisons:
 
-| LowRes image                                                   | Upscaled                                                        | Ground truth                                          |
-| -------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------- |
-| <img src="./examples/bell_pepper.jpg" width="400px" style="image-rendering: pixelated;">       | <img src="./examples/bell_pepper_up.png" width="400px" style="image-rendering: pixelated;">| -   |
-| <img src="./examples/input2.jpg" width="400px" style="image-rendering: pixelated;">        | <img src="./examples/input2_up.png" width="400px" style="image-rendering: pixelated;">      | -  |
-| <img src="./examples/original_down.png" width="400px" style="image-rendering: pixelated;"> | <img src="./examples/reconstructed.png" width="400px" style="image-rendering: pixelated;">  | <img src="./examples/original.png" width="400px" style="image-rendering: pixelated;"> |
+<img src="./examples/comparison2.png" width="800px">  
+<img src="./examples/comparison1.png" width="800px">  
+lowres - upscaled - original:  
+<img src="./examples/butterfly.png" width="1200px">
 
 The upscaling process is very dependent on the parameter,
 with the correct ones it can also be used to upscale pixel arts (left is the upscaled):
