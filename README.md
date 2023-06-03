@@ -1,8 +1,6 @@
 # knn-upscaler (and denoiser)
 
-A upscaler using the k-nearest-neighbor approach based on the assumption of similar structures in images at different scales.  
-It will also remove some noise and compression artifacts.  
-Just for fun, makes little sense in times of Deep Learning super resolution.
+An upscaler that employs the k-nearest-neighbor method by assuming the presence of similar structures in images across various scales. Additionally, it can reduce noise and compression artifacts. However, it should be noted that this approach has limited practical significance in the era of Deep Learning super resolution, and is mainly intended for entertainment purposes.
 
 Here are some example comparisons:
 
@@ -11,7 +9,7 @@ Here are some example comparisons:
 lowres - upscaled - original:  
 <img src="./examples/butterfly.png" width="1200px">
 
-The upscaling process is very dependent on the parameter,
+The upscaling process is very dependent on the parameters,
 with the correct ones it can also be used to upscale pixel arts (left is the upscaled):
 <img src="./examples/pixelart.png" width="1000px" style="image-rendering: pixelated;">
 
