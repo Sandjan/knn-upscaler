@@ -24,4 +24,4 @@ It also works pretty well on generated images:
 3. For the k best image patches, it takes the corresponding 4 pixels of the center pixel in the original image and calculates their average. These 4 pixels are now the resulting pixels in the upscaled version.  
 
 For this reason, the complexity is O(n²) (n = number of pixels), which is very bad for image upscaling.  
-Therefore, the upscaler has some parameters to speed it up, sometimes at the expense of quality. For this, it will not compare patches if the center pixel distance is already over a given threshold (--stop) and the assumption that similar structures are more likely to be found in the same area of the image (--area-size).
+Therefore, the upscaler has some parameters to speed it up, sometimes at the expense of quality. For this, it will not compare patches if the center pixel distance is already over a given threshold (--stop) and assumes that similar structures are more likely to be found in the same area of the image (--area-size).
